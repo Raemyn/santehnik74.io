@@ -1,9 +1,4 @@
-/* --------------------------
-   Локальное подключение шрифтов
-   Положите файлы в ./fonts/
-   Имена файлов: Montserrat-600.woff2, Montserrat-700.woff2,
-                 Roboto-400.woff2, Roboto-500.woff2
-   -------------------------- */
+
 
 @font-face {
   font-family: 'Montserrat';
