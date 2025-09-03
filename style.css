@@ -79,12 +79,27 @@ a {
     color: inherit;
     outline: none;
 }
+<<<<<<< HEAD
+=======
 
 a:focus {
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.12);
     border-radius: 6px;
 }
+>>>>>>> 2a9920a198279894171ab124c958c619cdbed4b5
 
+a:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.12);
+    border-radius: 6px;
+}
+h1 {
+  font-size: 2rem; /* или нужный тебе размер */
+  line-height: 1.2;
+}
+section h1 {
+  font-size: 2rem; /* можно подкорректировать */
+  line-height: 1.2;
+}
 /* Header */
 header {
     display: flex;
