@@ -316,78 +316,9 @@ header nav a.nav-link:focus {
     display: inline-block;
 }
 
-/* Water animation (капли) — оставил только капли, сделал их крупнее и более «каплевидными» */
-.water-animation {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
 
-.water-animation .drop {
-    position: absolute;
-    width: 14px;
-    height: 22px;
-    background: radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.95) 0 28%, rgba(255, 255, 255, 0.55) 29%, rgba(255, 255, 255, 0.12) 60%), rgba(255, 255, 255, 0.32);
-    border-radius: 50% 50% 45% 45% / 60% 60% 40% 40%;
-    transform: rotate(8deg);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-    animation: dropFall 2.4s infinite cubic-bezier(.2, .8, .2, 1);
-}
 
-/* более реалистичное расположение и задержки */
-.water-animation .drop:nth-child(1) {
-    left: 8%;
-    animation-delay: 0s;
-    top: -10px;
-}
 
-.water-animation .drop:nth-child(2) {
-    left: 24%;
-    animation-delay: 0.6s;
-    top: -20px;
-}
-
-.water-animation .drop:nth-child(3) {
-    left: 42%;
-    animation-delay: 1.1s;
-    top: -15px;
-}
-
-.water-animation .drop:nth-child(4) {
-    left: 64%;
-    animation-delay: 1.6s;
-    top: -5px;
-}
-
-.water-animation .drop:nth-child(5) {
-    left: 86%;
-    animation-delay: 2.0s;
-    top: -18px;
-}
-
-@keyframes dropFall {
-    0% {
-        transform: translateY(-10px) rotate(8deg) scale(0.95);
-        opacity: 0;
-    }
-
-    20% {
-        opacity: 1;
-    }
-
-    80% {
-        transform: translateY(85vh) rotate(12deg) scale(1);
-        opacity: 0.9;
-    }
-
-    100% {
-        transform: translateY(100vh) rotate(18deg) scale(0.98);
-        opacity: 0;
-    }
-}
 
 /* Services */
 .services {
