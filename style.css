@@ -64,8 +64,8 @@ body {
 
 /* Заголовки */
 h1,
-h3,
-h3,
+h2,
+h2,
 h4,
 h5,
 h6,
@@ -79,19 +79,12 @@ a {
     color: inherit;
     outline: none;
 }
-<<<<<<< HEAD
-=======
 
 a:focus {
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.12);
     border-radius: 6px;
 }
->>>>>>> 2a9920a198279894171ab124c958c619cdbed4b5
 
-a:focus {
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.12);
-    border-radius: 6px;
-}
 h1 {
   font-size: 2rem; /* или нужный тебе размер */
   line-height: 1.2;
@@ -403,7 +396,7 @@ header nav a.nav-link:focus {
     text-align: center;
 }
 
-.services h3 {
+.services h2 {
     font-size: 1.9rem;
     margin-bottom: 30px;
     color: #0b2340;
@@ -523,7 +516,7 @@ footer .grid {
     gap: 16px;
 }
 
-footer h3 {
+footer h2 {
     margin-bottom: 10px;
 }
 
